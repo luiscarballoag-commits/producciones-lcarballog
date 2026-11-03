@@ -622,3 +622,288 @@ footer {
         height: 120px;
     }
 }
+
+/* =========================================
+   LANZAMIENTO LLANOMUSIC
+   ========================================= */
+
+.launch-card {
+    grid-column: 1 / -1;
+    padding: 32px !important;
+}
+
+.launch-top {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.launch-card .project-label {
+    color: #75dcff;
+    font-size: .78rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.launch-card .project-status {
+    color: #67e89b;
+    font-size: .78rem;
+    font-weight: 800;
+}
+
+.launch-main {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1.2fr .8fr;
+    align-items: center;
+    gap: 25px;
+}
+
+.launch-info .project-logo {
+    width: 105px;
+    height: 105px;
+    margin-bottom: 15px;
+}
+
+.launch-info .project-icon {
+    font-size: 1.8rem;
+}
+
+.launch-info h3 {
+    color: #fff;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    line-height: 1;
+    margin: 10px 0 18px;
+}
+
+.launch-info p {
+    max-width: 540px;
+    color: #c7d7e6;
+    font-size: 1.15rem;
+}
+
+.phone-illustration {
+    justify-self: center;
+    width: 205px;
+    padding: 9px;
+    border: 3px solid #607b91;
+    border-radius: 32px;
+    background: linear-gradient(145deg, #253b50, #050b13);
+    box-shadow: 0 20px 45px rgba(0,0,0,.55),
+                0 0 35px rgba(25,181,254,.20);
+    transform: rotate(3deg);
+}
+
+.phone-screen {
+    position: relative;
+    min-height: 345px;
+    overflow: hidden;
+    padding: 28px 12px 12px;
+    border-radius: 23px;
+    background: linear-gradient(180deg, #123a50, #071522 75%);
+    text-align: center;
+}
+
+.phone-camera {
+    position: absolute;
+    top: 9px;
+    left: 50%;
+    width: 48px;
+    height: 8px;
+    border-radius: 10px;
+    background: #02070d;
+    transform: translateX(-50%);
+}
+
+.phone-brand {
+    display: block;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: .95;
+    letter-spacing: 2px;
+}
+
+.phone-subtitle {
+    display: block;
+    margin-top: 8px;
+    color: #8bdfff;
+    font-size: .48rem;
+    letter-spacing: 1px;
+}
+
+.phone-landscape {
+    display: grid;
+    place-items: center;
+    height: 105px;
+    margin: 15px 0;
+    border-radius: 13px;
+    background: linear-gradient(160deg, #197b9e, #163b49 55%, #a56b36);
+    font-size: 3.5rem;
+}
+
+.phone-radio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8px;
+    border-radius: 10px;
+    background: #12638a;
+    color: #fff;
+    font-size: .7rem;
+    font-weight: 700;
+}
+
+.phone-radio span {
+    color: #80e7ff;
+}
+
+.phone-section {
+    display: block;
+    margin: 15px 0 8px;
+    color: #fff;
+    font-size: .7rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.phone-albums {
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+.phone-albums span {
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 9px;
+    background: #1a3850;
+    font-size: 1.3rem;
+}
+
+.phone-nav {
+    margin-top: 17px;
+    padding: 8px 0;
+    border-top: 1px solid rgba(255,255,255,.15);
+    color: #8bdfff;
+    font-size: .85rem;
+}
+
+.launch-features {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.launch-features div {
+    padding: 13px 8px;
+    border: 1px solid rgba(25,181,254,.18);
+    border-radius: 13px;
+    background: rgba(5,20,34,.55);
+    color: #d8eaf5;
+    font-size: .72rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.launch-features span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+}
+
+.launch-actions {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    margin-top: 25px;
+}
+
+.launch-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 220px;
+    min-height: 54px;
+    padding: 14px 20px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-weight: 800;
+    text-align: center;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.launch-button:hover {
+    transform: translateY(-3px);
+}
+
+.download-button {
+    background: linear-gradient(135deg, #19b5fe, #087db5);
+    color: #03101b;
+    box-shadow: 0 10px 28px rgba(25,181,254,.25);
+}
+
+.premium-button {
+    border: 1px solid rgba(255,204,91,.4);
+    background: linear-gradient(135deg, #7955e8, #4930a9);
+    color: #fff;
+    box-shadow: 0 10px 28px rgba(104,71,232,.25);
+}
+
+.launch-card .project-tagline {
+    position: relative;
+    z-index: 2;
+    margin: 22px 0 0;
+    color: #7bdcff;
+    font-weight: 800;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .launch-card {
+        padding: 23px !important;
+    }
+
+    .launch-main {
+        grid-template-columns: 1fr;
+    }
+
+    .launch-info {
+        text-align: center;
+    }
+
+    .launch-info .project-logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .phone-illustration {
+        width: 190px;
+        margin: 12px auto;
+    }
+
+    .launch-features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .launch-actions {
+        flex-direction: column;
+    }
+
+    .launch-button {
+        width: 100%;
+    }
+}
