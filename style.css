@@ -907,3 +907,159 @@ footer {
         width: 100%;
     }
 }
+
+/* AJUSTE COMPACTO LLANOMUSIC */
+.launch-card {
+    padding: 18px !important;
+}
+
+.launch-top {
+    margin-bottom: 10px;
+    gap: 7px;
+}
+
+.launch-card .project-label,
+.launch-card .project-status {
+    font-size: .65rem;
+}
+
+.launch-main {
+    gap: 12px;
+}
+
+.launch-info .project-logo {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 7px;
+}
+
+.launch-info h3 {
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    margin: 5px 0 8px;
+}
+
+.launch-info p {
+    font-size: .9rem;
+}
+
+.phone-illustration {
+    width: 155px;
+    padding: 6px;
+}
+
+.phone-screen {
+    min-height: 250px;
+    padding: 23px 9px 8px;
+}
+
+.phone-landscape {
+    height: 72px;
+    margin: 10px 0;
+    font-size: 2.5rem;
+}
+
+.phone-radio {
+    padding: 7px 6px;
+    font-size: .57rem;
+}
+
+.phone-section {
+    margin: 10px 0 6px;
+    font-size: .58rem;
+}
+
+.phone-albums span {
+    width: 37px;
+    height: 37px;
+    font-size: 1rem;
+}
+
+.phone-nav {
+    margin-top: 11px;
+    padding: 6px 0;
+    font-size: .7rem;
+}
+
+.launch-features {
+    gap: 7px;
+    margin-top: 13px;
+}
+
+.launch-features div {
+    padding: 8px 5px;
+    font-size: .61rem;
+}
+
+.launch-features span {
+    font-size: 1rem;
+    margin-bottom: 3px;
+}
+
+.launch-actions {
+    gap: 9px;
+    margin-top: 13px;
+}
+
+.launch-button {
+    flex-basis: 180px;
+    min-height: 42px;
+    padding: 9px 14px;
+    font-size: .84rem;
+}
+
+.launch-card .project-tagline {
+    margin-top: 11px;
+    font-size: .82rem;
+}
+
+@media (max-width: 600px) {
+    .launch-card {
+        padding: 15px !important;
+    }
+
+    .launch-main {
+        grid-template-columns: 1fr .8fr;
+        gap: 7px;
+    }
+
+    .launch-info {
+        text-align: left;
+    }
+
+    .launch-info .project-logo {
+        width: 62px;
+        height: 62px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .launch-info h3 {
+        font-size: 1.65rem;
+    }
+
+    .launch-info p {
+        font-size: .78rem;
+    }
+
+    .phone-illustration {
+        width: 125px;
+        margin: 5px auto;
+    }
+
+    .phone-screen {
+        min-height: 220px;
+    }
+
+    .launch-features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .launch-actions {
+        flex-direction: row;
+    }
+
+    .launch-button {
+        flex-basis: 100%;
+        width: 100%;
+    }
+}
