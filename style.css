@@ -1063,3 +1063,139 @@ footer {
         width: 100%;
     }
 }
+
+/* LLANOMUSIC: MISMO TAMANO QUE LAS OTRAS TARJETAS */
+
+.launch-card {
+    grid-column: auto !important;
+    padding: 18px !important;
+    min-height: 0 !important;
+}
+
+.launch-top {
+    margin-bottom: 10px;
+}
+
+.launch-main {
+    grid-template-columns: minmax(0, 1fr) 105px;
+    gap: 8px;
+}
+
+.launch-info .project-logo {
+    width: 58px;
+    height: 58px;
+}
+
+.launch-info h3 {
+    font-size: 1.7rem;
+}
+
+.launch-info p {
+    font-size: .78rem;
+    line-height: 1.4;
+}
+
+.phone-illustration {
+    width: 105px;
+    padding: 4px;
+    border-radius: 19px;
+}
+
+.phone-screen {
+    min-height: 185px;
+    padding: 20px 6px 6px;
+    border-radius: 14px;
+}
+
+.phone-brand {
+    font-size: .9rem;
+}
+
+.phone-subtitle {
+    font-size: .3rem;
+}
+
+.phone-landscape {
+    height: 48px;
+    margin: 7px 0;
+    font-size: 1.8rem;
+}
+
+.phone-radio {
+    padding: 5px 4px;
+    font-size: .43rem;
+}
+
+.phone-section {
+    margin: 7px 0 4px;
+    font-size: .45rem;
+}
+
+.phone-albums {
+    gap: 3px;
+}
+
+.phone-albums span {
+    width: 25px;
+    height: 25px;
+    font-size: .75rem;
+}
+
+.phone-nav {
+    margin-top: 7px;
+    padding: 4px 0;
+    font-size: .55rem;
+}
+
+.launch-features {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 5px;
+    margin-top: 12px;
+}
+
+.launch-features div {
+    padding: 6px 3px;
+    font-size: .54rem;
+}
+
+.launch-features span {
+    font-size: .85rem;
+}
+
+.launch-actions {
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.launch-button {
+    flex: none;
+    width: 100%;
+    min-height: 36px;
+    padding: 7px 8px;
+    font-size: .75rem;
+}
+
+.launch-card .project-tagline {
+    margin-top: 9px;
+    font-size: .72rem;
+}
+
+@media (max-width: 600px) {
+    .launch-card {
+        padding: 15px !important;
+    }
+
+    .launch-main {
+        grid-template-columns: minmax(0, 1fr) 100px;
+        gap: 7px;
+    }
+
+    .phone-illustration {
+        width: 100px;
+    }
+
+    .launch-info h3 {
+        font-size: 1.55rem;
+    }
+}
