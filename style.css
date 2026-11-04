@@ -1295,10 +1295,18 @@ footer {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
+    background: #071522;
     border-radius: inherit;
 }
 
 .phone-camera {
     z-index: 1;
+}
+
+/* REDIMENSIONAR TELEFONO LLANOMUSIC */
+.launch-card .phone-illustration {
+    transform: scale(0.80) rotate(3deg);
+    transform-origin: center;
 }
